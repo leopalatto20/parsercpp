@@ -20,6 +20,7 @@
   (mostrar-resultado "Declaraciones con inicialización" "int x = 5; float y = x + 3.2 * (10 - 4);")
   (mostrar-resultado "Función con parámetros" "int suma(int a, int b) { return a + b; }")
   (mostrar-resultado "Expresiones aritméticas" "int z = (x + y) * (a - b) / 2;"))
+  (mostrar-resultado "Declaracion sin inicializacion" "int x = 3;")
 
 ;; Tests unitarios
 (module+ test
